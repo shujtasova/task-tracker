@@ -1,75 +1,39 @@
-# Nuxt Minimal Starter
+# Task Tracker
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Task Tracker — простой трекер задач, созданный на Nuxt 3.
+Возможности:
+- Создание, просмотр и удаление задач
+- Фильтрация задач по дате
+- Сохранение задач в LocalStorage
 
-## Setup
 
-Make sure to install dependencies:
+TODO
+- Добавить анимации, дизайн
+- Добавить drag-and-drop
+- Добавить сортировку по дате
+- Интеграция с бекендом
+
+## Демо
+
+https://shuitasova-task-tracker.netlify.app/
+
+## Стек технологий
+
+- [Nuxt] (https://nuxt.com/docs/getting-started/introduction)
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Pinia](https://pinia.vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SCSS](https://sass-lang.com/)
+
+## Запуск проекта
 
 ```bash
-# npm
+# Установка зависимостей
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Запуск локального сервера
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Сборка проекта
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
